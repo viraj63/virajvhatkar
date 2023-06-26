@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'; /*
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'; /*
 If you have multiple pages you need to use the above line react-router-dom
 */
 import React from 'react';
