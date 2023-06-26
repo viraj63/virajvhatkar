@@ -3,6 +3,9 @@ import './Project_1.css'
 import projectimag from '../../Images/updated_BOX_111_222.png';
 import diode_pi from '../../Images/diode_pic.png';
 import patentimg from '../../Images/paten.png';
+import { Link, useLocation} from 'react-router-dom';
+
+
 function Project_1() {
     return (
         <div className='outer_class'>
@@ -124,7 +127,8 @@ function Project_1() {
          
             <a className='box_1'> Next Project  </a>
           
-            <a href="/project_2" className='box_2'>Light Fidelity</a>   
+            
+            <Link to="/project_2" ><a className='box_2'>Light Fidelity</a>  </Link> 
           
                
                   
