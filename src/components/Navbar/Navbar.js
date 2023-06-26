@@ -41,7 +41,7 @@ function Navbar() {
 
 
 
-</div>
+                    </div>
                     
                 </div>
 {/*                 <div className='resume'>
