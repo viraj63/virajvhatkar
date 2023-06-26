@@ -1,5 +1,5 @@
 {
-    "homepage": "http://github.io/viraj63/virajvhatkar",
+    "homepage": "http://viraj63.github.io/virajvhatkar",
     "name": "viraj_vhatkar",
     "version": "0.1.0",
     "private": true,
@@ -51,6 +51,6 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^5.0.0"
+        "gh-pages": "^3.0.0"
     }
 }
