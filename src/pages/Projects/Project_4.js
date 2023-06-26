@@ -4,6 +4,7 @@ import projectimag from '../../Images/proj_3.png';
 import video1 from "../../Images/proj_4.mp4";
 //import diode_pi from '../../Images/diode_pic.png';
 //import patentimg from '../../Images/lifi_2.jpg';
+import { Link} from 'react-router-dom';
 function Project_4() {
   return (
     <div>
@@ -149,7 +150,8 @@ The received light signals, which have been converted back into electrical signa
 
 <a className='box_1'> Next Project  </a>
 
-<a  href="/project_5"  className='box_2' >Object Counter Using IR</a>   
+  
+<Link to="../../pages/Projects/project_5" className='box_2'>Object Counter Using IR</Link> 
 
    
       

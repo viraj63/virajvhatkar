@@ -4,7 +4,7 @@ import projectimag from '../../Images/proj_3.png';
 import diode_pi from '../../Images/diode_pic.png';
 import patentimg from '../../Images/lifi_2.jpg';
 import YouTube from 'react-youtube';
-
+import { Link} from 'react-router-dom';
 
 function Project_3() {
   return (
@@ -129,8 +129,8 @@ function Project_3() {
 
 <a className='box_1'> Next Project  </a>
 
-<a href='/project_4' className='box_2' >Braille Language_Converter</a>   
 
+<Link to="../../pages/Projects/project_4" className='box_2'>Braille Language_Converter</Link>   
    
       
 

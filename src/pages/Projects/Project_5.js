@@ -4,6 +4,7 @@ import projectimag from '../../Images/proj_52.jpg';
 import video1 from "../../Images/LDR_1.mp4";
 import video2 from "../../Images/LDR_12.mp4";
 import video3 from "../../Images/IR_1.mp4";
+import { Link} from 'react-router-dom';
 
 function Project_5() {
   return (
@@ -181,8 +182,8 @@ function Project_5() {
 
 <a className='box_1'> Next Project  </a>
 
-<a href='/project_6' className='box_2' >Lay_off_Trend</a>   
-
+   
+<Link to="../../pages/Projects/project_6" className='box_2'>Lay_off_Trend</Link> 
    
       
 
