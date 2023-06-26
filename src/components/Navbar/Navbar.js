@@ -17,35 +17,48 @@ function Navbar() {
         setExpandNavbar(false);
     }, [location]);
 
-    return ( 
-        
-        <div className = 'navbar' id={expandNavbar ? "open" : "close"}>
-              
-            <div className = 'toggleButton'>
-                <button onClick = {() => { setExpandNavbar((prev) => !prev); }} >
+    return (
+
+        <div className='navbar' id={expandNavbar ? "open" : "close"}>
+
+            <div className='toggleButton'>
+                <button onClick={() => { setExpandNavbar((prev) => !prev); }} >
                     <ReorderIcon />{" "}
                 </button>
             </div>
-           
-            <div className = 'links'>
-                <Link to="/" className="highlight">HOME</Link>
-                <Link to="/about" className="highlight">ABOUT</Link>
-                <Link to="/projects" className="highlight">PROJECTS</Link>
-                <Link to="/experience" className="highlight">EXPERIENCE</Link>
-            </div>
-             
-                <div className='resume'>
 
-                <a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
+    
 
+
+                <div className='links'>
+                    <Link to="/" className="highlight">HOME</Link>
+                    <Link to="/about" className="highlight">ABOUT</Link>
+                    <Link to="/projects" className="highlight">PROJECTS</Link>
+                    <Link to="/experience" className="highlight">EXPERIENCE</Link>
+                    <div className='resume'>
+
+<a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
+
+
+
+</div>
                     
-             
-              </div>
+                </div>
+{/*                 <div className='resume'>
 
-               
-        
+                    <a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
+
+
+
+                </div> */}
+
+
+
+          
+
+
         </div>
-        
+
     );
 }
 
