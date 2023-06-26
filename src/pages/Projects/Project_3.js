@@ -130,7 +130,7 @@ function Project_3() {
 <a className='box_1'> Next Project  </a>
 
 
-<Link to="../../pages/Projects/project_4" className='box_2'>Braille Language_Converter</Link>   
+<Link to="/project_4" className='box_2'>Braille Language_Converter</Link>   
    
       
 
