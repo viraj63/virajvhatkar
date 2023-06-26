@@ -4,7 +4,7 @@ import projectimag from '../../Images/proj_52.jpg';
 import video1 from "../../Images/LDR_1.mp4";
 import video2 from "../../Images/LDR_12.mp4";
 import video3 from "../../Images/IR_1.mp4";
-import { Link} from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
 function Project_5() {
   return (

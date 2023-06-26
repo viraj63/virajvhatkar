@@ -4,7 +4,7 @@ import projectimag from '../../Images/proj_3.png';
 import diode_pi from '../../Images/diode_pic.png';
 import patentimg from '../../Images/lifi_2.jpg';
 import YouTube from 'react-youtube';
-import { Link} from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
 function Project_3() {
   return (

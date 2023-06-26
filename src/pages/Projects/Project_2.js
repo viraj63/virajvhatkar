@@ -3,7 +3,7 @@ import './Project_1.css'
 import projectimag from '../../Images/lifi_22.jpg';
 import diode_pi from '../../Images/diode_pic.png';
 import patentimg from '../../Images/lifi_2.jpg';
-import { Link} from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 function Project_2() {
   return (
     <div>
@@ -126,7 +126,7 @@ The received light signals, which have been converted back into electrical signa
 {/*<a  href="../../pages/Projects/project_3"  className='box_2' ></a> */}
 <Link to="../../pages/Projects/project_3" className='box_2'>Tableau Viz_Challenge</Link>   
 
-   
+
       
 
 
