@@ -1,42 +1,93 @@
-.footer {
+
+.bloc-logo {
+    position: relative;
     width: 100%;
     height: 200px;
-    background: rgb(19, 19, 72);
+  }
+  
+  #logo-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .footer {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+
+
+/*
+
+.bloc-logo {
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+  }
+
+  .bloc-logo canvas,
+  .bloc-logo .footer {
+    width: 100%;
+    height: 200px;
+  }
+
+
+.footer {
+    width: 100%;
+    height: 100%;
+
+   
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    background: transparent;
+    
    
 }
 
 
-/*animation: changeColor 10s infinite;
-}
 
-@keyframes changeColor {
-    0% {
-        background-color: hsl(240, 41%, 42%);
+/*animation: changeColor 10s infinite; 
+@keyframes color{
+    0%{
+        background-position: 0 50%;
     }
-    25% {
-        background-color: rgb(19, 19, 72);
+    50%{
+        background-position: 100% 50%;
     }
-    50% {
-        background-color: hsl(120, 10%, 41%);
-    }
-    75% {
-        background-color: rgb(19, 19, 72);
-    }
-    100% {
-        background-color: hsl(276, 95%, 54%);
+    100%{
+        background-position: 0 50%;
     }
 }*/
 
+
+
+
 .socialMedia svg {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+   
 }
 
 .footer p {
