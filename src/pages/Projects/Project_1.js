@@ -128,7 +128,7 @@ function Project_1() {
             <a className='box_1'> Next Project  </a>
           
             
-            <Link to="../../pages/Projects/project_2" className='box_2'>Light Fidelity</Link> 
+            <Link to="/project_2" className='box_2'>Light Fidelity</Link> 
           
             
          

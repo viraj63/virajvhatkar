@@ -1,6 +1,6 @@
 import React from 'react'
 import './Project_1.css'
-import projectimag from '../../Images/proj_3.png';
+//import projectimag from '../../Images/proj_3.png';
 import video1 from "../../Images/proj_4.mp4";
 //import diode_pi from '../../Images/diode_pic.png';
 //import patentimg from '../../Images/lifi_2.jpg';
