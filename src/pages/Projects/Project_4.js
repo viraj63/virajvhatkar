@@ -22,27 +22,34 @@ function Project_4() {
 
 
 
+
+
         <div className="inner_1_2">
 
 
-            <div className="_a_3">
-                <a href="/projects" className="project-tag">Strategy</a>
-            </div>
+<div className="_a_3">
+    
+    <Link to="/projects" className='project-tag'>Strategy</Link> 
+</div>
 
-            <div className="_a_3">
-                <a href="/projects" className="project-tag">UIUX</a>
-            </div>
+<div className="_a_3">
+   
+    <Link to="/projects" className='project-tag'>UIUX</Link> 
+</div>
 
-            <div class="_a_3">
-                <a href="/projects" className="project-tag">Ideation</a>
-            </div>
+<div class="_a_3">
+  
+    <Link to="/projects" className='project-tag'>Ideation</Link> 
+    
+</div>
 
-            <div class="_a_3">
-                <a href="/projects" className="project-tag">Brand Identity</a>
-            </div>
+<div class="_a_3">
+   
+    <Link to="/projects" className='project-tag'>Brand Identity</Link> 
+</div>
 
 
-        </div>
+</div>
 
 
 

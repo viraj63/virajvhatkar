@@ -23,7 +23,7 @@ function Project_3() {
 
 
 
-        <div className="inner_1_2">
+ {/*       <div className="inner_1_2">
 
 
             <div className="_a_3">
@@ -44,7 +44,33 @@ function Project_3() {
 
 
         </div>
+        */}
+        <div className="inner_1_2">
 
+
+<div className="_a_3">
+    
+    <Link to="/projects" className='project-tag'>Strategy</Link> 
+</div>
+
+<div className="_a_3">
+   
+    <Link to="/projects" className='project-tag'>UIUX</Link> 
+</div>
+
+<div class="_a_3">
+  
+    <Link to="/projects" className='project-tag'>Ideation</Link> 
+    
+</div>
+
+<div class="_a_3">
+   
+    <Link to="/projects" className='project-tag'>Brand Identity</Link> 
+</div>
+
+
+</div>
 
 
 

@@ -21,24 +21,21 @@ function Project_6() {
 
 
                             <div className="_a_3">
-                                <a href="/projects" className="project-tag">Strategy</a>
+
+                                <Link to="/projects" className='project-tag'>Strategy</Link>
                             </div>
 
                             <div className="_a_3">
-                                <a href="/projects" className="project-tag">UIUX</a>
+
+                                <Link to="/projects" className='project-tag'>UIUX</Link>
                             </div>
 
                             <div class="_a_3">
-                                <a href="/projects" className="project-tag">Ideation</a>
+
+                                <Link to="/projects" className='project-tag'>Ideation</Link>
+
                             </div>
-
-                            <div class="_a_3">
-                                <a href="/projects" className="project-tag">Brand Identity</a>
-                            </div>
-
-
                         </div>
-
 
 
 
