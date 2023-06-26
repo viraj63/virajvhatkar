@@ -48,7 +48,7 @@
     font-weight: 200;
     color: #227b9b;
     height: 50px;
-   
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 .prompt p:first-of-type{   /*    initial: .common .prompt p:first-of-type{  */
