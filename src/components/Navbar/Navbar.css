@@ -200,4 +200,8 @@
     #open .links {
         flex-direction: row;
     }
+
+    #open .resume{
+      flex-direction:column
+    }
 }

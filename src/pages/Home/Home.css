@@ -5,7 +5,7 @@
     align-items: center;
     /*text-align: center; */
     width: 100%;
-    height: 100%;
+    height: 100vh;
     font-family: "Arial", sans-serif;
     color: #1f3bb9;
     display: grid;
@@ -85,6 +85,7 @@
     padding-left: 120px;
     padding-top: 30px;
     padding-bottom: 70px;
+    margin-bottom: 30px;
     
  }
 
