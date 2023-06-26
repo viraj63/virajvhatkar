@@ -24,7 +24,7 @@
     top: 0;
     padding-left: 0px;
     font-size: 2.7rem;
-    font-family: cursive;
+    font-family: 'Libre Baskerville', sans-serif;
     font-weight: 200;
     width: 100%;
     transition-property: all;
@@ -91,7 +91,7 @@
  .logos_home a{     /*     .common .logos_home  a{  */
     
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: 'Libre Baskerville', sans-serif;
     font-weight: 200;
     padding-right: 40px;
     color: #f0f0f0;
