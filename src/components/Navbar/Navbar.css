@@ -21,7 +21,11 @@
 }
 
 .resume{
+<<<<<<< HEAD
    padding-top: 20px;
+=======
+    padding-top: 20px;
+>>>>>>> 7490540361ea1f778896ff9628ebfc6d009cc0cb
     padding-right: 50px;
     background: transparent;
 }

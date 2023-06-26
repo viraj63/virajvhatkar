@@ -1,0 +1,60 @@
+
+
+.about .third{
+    width: 50%; 
+    position: relative; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    
+}
+
+.about .second h2{
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.about .third h3{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(66, 133, 201);
+}
+
+
+
+
+
+
+/*.about .col-2 p:nth-child(4) {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+}*/
+
+
+
+@media screen and (max-width:940px) {
+
+
+    .about  {
+        width: 100%;
+    }
+
+    .about .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .about {
+        padding: 0;
+    }
+
+}
+
