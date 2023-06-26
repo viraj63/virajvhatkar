@@ -24,7 +24,7 @@ function ProjectItem({ image, name }) {
           navigate("/project_6");
           break;
       default:
-        break;
+           break;
     }
   };
 
