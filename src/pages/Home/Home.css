@@ -5,7 +5,7 @@
     align-items: center;
     /*text-align: center; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: "Arial", sans-serif;
     color: #1f3bb9;
     display: grid;
@@ -189,38 +189,31 @@
        .common  {
         width: 100%;
         height: 100%;
-           font-family: "Arial", sans-serif;
         }
         .prompt p:first-of-type{
             padding-left: 15px;
-            font-family: "Arial", sans-serif;
         }
 
         .sec_para{
             padding-top: 20%;
             padding-left:15px;
             font-size: 33px;
-            font-family: "Arial", sans-serif;
         }
         .prompt h2{
             padding-bottom: 10%;
             padding-left: 15px;
             font-size: 33px;
-            font-family: "Arial", sans-serif;
         }
 
        .prompt p:first-of-type{
             font-size: 20px;
-           font-family: "Arial", sans-serif;
         }
         .logos_home{
             padding: 15px;
-            font-family: "Arial", sans-serif;
         }
         .logos_home a{
             padding-right: 1px;
             font-size: 12px;
-            font-family: "Arial", sans-serif;
         }
         .navbar a {
             width: 70px;
