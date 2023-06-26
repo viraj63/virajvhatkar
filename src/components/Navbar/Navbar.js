@@ -32,15 +32,23 @@ function Navbar() {
                 <Link to="/about" className="highlight">ABOUT</Link>
                 <Link to="/projects" className="highlight">PROJECTS</Link>
                 <Link to="/experience" className="highlight">EXPERIENCE</Link>
+
+                 <div className='resume'>
+
+<a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
+
+
+
+                    </div>
             </div>
              
-                <div className='resume'>
+{/*                 <div className='resume'>
 
-                <a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
+                    <a href={require("../Navbar/re.pdf")} download="Resume_Viraj_Vhatkar"><Button>   Download_Resume  </Button></a>
 
-                    
-             
-              </div>
+
+
+                </div> */}
 
                
         
