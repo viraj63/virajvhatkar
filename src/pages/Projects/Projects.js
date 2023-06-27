@@ -21,8 +21,17 @@ function Projects() {
           <ProjectItem name="Braille Language_Converter" image={Proj4} />
           <ProjectItem name="Object Counter Using IR" image={Proj5} />
           <ProjectItem name="Lay_off_Trend" image={imaje1} />
- 
+      
     </div>
+    <a >
+      <h3>
+      <strong>
+          I haven't updated the page yet because there are still some projects(Data analytics) that need to be added to this section.
+          </strong>
+      </h3>
+      
+          
+         </a>
   </div>
     );
 }
