@@ -15,7 +15,7 @@ const data = {
         {
             title: "What is your end goal?",
             content:
-                "At the end of the day I want to see myself that I have learned something new and made things happen for betterment than yesterday",
+                "At the end of the day, I wish to have learned something new and made a change towards betterment of myself and the society.",
         },
         {
             title: "What are you exactly studying",
