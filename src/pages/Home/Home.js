@@ -20,6 +20,7 @@ function Home() {
                             <a href="https://www.buffalo.edu/" target="_blank"  className='uni_buf'>  University of New York at Buffalo </a>
                             <br></br>with a passion for learning & creating.
                           </p>
+                          <br></br>
                            <p class="sec_para"> 
                            "Don't watch the clock; do what it does. <br>
                            </br>Keep going" - Sam Levenson
