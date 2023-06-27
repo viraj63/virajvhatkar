@@ -143,9 +143,8 @@ The received light signals, which have been converted back into electrical signa
 
                 <a className='box_1'> Next Project  </a>
 
-                <a href="/project_5" className='box_2' >
-Video_Game_2022_Analysis</a>
-
+            
+                <Link to="/project_7" className='box_2'>Netflix_Dashboard</Link> 
 
 
 

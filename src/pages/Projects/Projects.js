@@ -8,6 +8,7 @@ import Proj4 from "../../Images/proj_5.png";
 import Proj5 from "../../Images/proj_51.png";
 import imaje from "../../Images/imagine.webp";
 import imaje1 from "../../Images/here.webp";
+import proj7 from "../../Images/net_log.png";
 
 
 function Projects() {
@@ -20,7 +21,9 @@ function Projects() {
           <ProjectItem name="Tableau Viz_Challenge" image={Proj3} />
           <ProjectItem name="Braille Language_Converter" image={Proj4} />
           <ProjectItem name="Object Counter Using IR" image={Proj5} />
-          <ProjectItem name="Lay_off_Trend" image={imaje1} />
+          <ProjectItem name="Lay_off_Trend" image={imaje1} /> 
+
+          <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
       
     </div>
     <a >
