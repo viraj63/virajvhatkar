@@ -63,7 +63,9 @@ economy studies of 300+ workers on production lines to increase the production o
 ● Partnered with Quality Control by analysing weekly reports on 5 KPIs such as throughput, capacity utilisation 
 and conducting root-cause analysis on problems at 12 production lines at machine shops to reduce defects<br>
 </br>
-● Audited foundry and machine shop layout pla
+● Audited foundry and machine shop layout plan to identify operational improvements and achieve a reduction
+in material transportation using 5S and VSM
+
           </p>
         
         </VerticalTimelineElement>
