@@ -65,7 +65,7 @@ function Project_7() {
         Aim!!
     </h2>
     <strong>
-     To draw insight from the Netflix dataset using Tableau.
+     To Recreate the insight from the Netflix dataset using Tableau.
     </strong>
     <br>
     </br>
