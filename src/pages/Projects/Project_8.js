@@ -132,7 +132,7 @@ In summary, this invention provides a portable device that uses multiple cameras
 
     The type of interaction can be modified to focus on either Movies or TV Shows, allowing for a more tailored and customized experience to obtain information about specific titles within those categories.    { /*<img src={diode_pi} alt='image1' className='diode_image_1' />  */}
     <br></br><br></br>
-    You could follow the Dashboard by clicking on this <strong><Link to="https://public.tableau.com/views/Book2_amazaon/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" >Link</Link>
+    You could follow the Dashboard by clicking on this <strong><Link to="" >Link</Link>
         .
     </strong>
 
