@@ -142,7 +142,7 @@ In summary, this invention provides a portable device that uses multiple cameras
                     <br></br>
                     To visualize these insights, I have designed a Tableau Dashboard. <br></br>You can interact with the dashboard to explore the data and find the movie information you're looking for:
 
-                            <div  ref={ref} className='tab_101' />
+                            <div  ref={ref} className='tab_101' ></div>
 
                     
 

@@ -137,17 +137,17 @@ function Project_7() {
                     3. The distribution of movies and TV shows released by year.<br></br>
                     4. The most commonly assigned rating for movies and TV shows.<br></br>
                     <br></br>
-                    To visualize these insights, I have designed a Tableau Dashboard. <br></br>Please refer to the image below:
+                    To visualize these insights, I have designed a Tableau Dashboard. <br></br>You can interact with the dashboard to explore the data and find the movie information you're looking for:
                     
-                    <div  ref={ref} className='tab_101' />
+                    <div  ref={ref} className='tab_101'></div>
+                    <br>
+                    </br>
                     <br>
                     </br>
 
                     The type of interaction can be modified to focus on either Movies or TV Shows, allowing for a more tailored and customized experience to obtain information about specific titles within those categories.    { /*<img src={diode_pi} alt='image1' className='diode_image_1' />  */}
                     <br></br><br></br>
-                    You could follow the Dashboard by clicking on this <strong><Link to="https://public.tableau.com/views/Netflix_Recreate/Netflix?:language=en-US&:display_count=n&:origin=viz_share_link" >Link</Link>
-                        .
-                    </strong>
+                    Using the Tableau JavaScript API I have integrated the Tableau visualizations into my own web applications here.
 
                     { /*
                     <img src={patentimg} alt='image1' className='project_image_1' />
