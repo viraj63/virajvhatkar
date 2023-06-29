@@ -1,11 +1,23 @@
-import React from 'react'
+import React ,{useEffect, useRef} from 'react'
 import './Project_1.css'
 import projectimag from '../../Images/proj_3.png';
 import diode_pi from '../../Images/net_log.png';
 //import video1 from "../../Images/proj_4.mp4";
 import { Link, useLocation} from 'react-router-dom';
 import patentimg from '../../Images/Netflix.png';
+const { tableau } = window;
 function Project_7() {
+
+    const ref = useRef(null);
+    const url = "https://public.tableau.com/views/Netflix_Recreate/Netflix";
+
+    const initViz = () => {
+        if (!ref.current.innerHTML) {
+            new tableau.Viz(ref.current, url);
+        }
+    };
+
+    useEffect(initViz, []);
   return (
         <div>
             <div className='outer_class'>
@@ -126,7 +138,8 @@ function Project_7() {
                     4. The most commonly assigned rating for movies and TV shows.<br></br>
                     <br></br>
                     To visualize these insights, I have designed a Tableau Dashboard. <br></br>Please refer to the image below:
-                    <img src={patentimg} alt='image1' className='project_image_1' />
+                    
+                    <div  ref={ref} className='tab_101' />
                     <br>
                     </br>
 
@@ -137,6 +150,7 @@ function Project_7() {
                     </strong>
 
                     { /*
+                    <img src={patentimg} alt='image1' className='project_image_1' />
 <br>
 </br>
 <h2>
