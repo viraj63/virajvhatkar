@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/virajvhatkar/static/css/main.c60c6b71.css",
-    "main.js": "/virajvhatkar/static/js/main.760d4b01.js",
+    "main.css": "/virajvhatkar/static/css/main.1870d685.css",
+    "main.js": "/virajvhatkar/static/js/main.8d7bd36c.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
@@ -19,21 +19,23 @@
     "static/media/v2.gif": "/virajvhatkar/static/media/v2.fc28ef7e55c514af4a89.gif",
     "static/media/here.webp": "/virajvhatkar/static/media/here.9b9a11d78abb3f9b3c5d.webp",
     "static/media/proj_5.png": "/virajvhatkar/static/media/proj_5.3b4c0a6d5693dc8a0b99.png",
+    "static/media/ama_scre.png": "/virajvhatkar/static/media/ama_scre.800bd085fd30dab65edd.png",
     "static/media/updated_BOX_111_222.png": "/virajvhatkar/static/media/updated_BOX_111_222.0446f1b9d52a4c133b4f.png",
     "static/media/viraj_2.png": "/virajvhatkar/static/media/viraj_2.e9153273b208db4e01ec.png",
     "static/media/proj_3.png": "/virajvhatkar/static/media/proj_3.5b312ccd15e5b619d178.png",
     "static/media/viraj_2.jpeg": "/virajvhatkar/static/media/viraj_2.4680e25197df837e7f97.jpeg",
+    "static/media/ama_log.jpg": "/virajvhatkar/static/media/ama_log.38a97a7e54bbafaebac4.jpg",
     "static/media/re.pdf": "/virajvhatkar/static/media/re.0fb006b8daadb1cbb5ea.pdf",
     "static/media/net_log.png": "/virajvhatkar/static/media/net_log.6884c07aa3bf89eae3c3.png",
     "static/media/pic_1.png": "/virajvhatkar/static/media/pic_1.e4c7b087de63faa2f845.png",
     "static/media/lifi_22.jpg": "/virajvhatkar/static/media/lifi_22.b830719d819bffb9f27f.jpg",
     "index.html": "/virajvhatkar/index.html",
-    "main.c60c6b71.css.map": "/virajvhatkar/static/css/main.c60c6b71.css.map",
-    "main.760d4b01.js.map": "/virajvhatkar/static/js/main.760d4b01.js.map",
+    "main.1870d685.css.map": "/virajvhatkar/static/css/main.1870d685.css.map",
+    "main.8d7bd36c.js.map": "/virajvhatkar/static/js/main.8d7bd36c.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60c6b71.css",
-    "static/js/main.760d4b01.js"
+    "static/css/main.1870d685.css",
+    "static/js/main.8d7bd36c.js"
   ]
 }
