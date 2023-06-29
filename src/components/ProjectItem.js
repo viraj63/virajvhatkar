@@ -21,11 +21,14 @@ function ProjectItem({ image, name }) {
       case "Object Counter Using IR":
         navigate("/project_5");
         break;
-        case "Lay_off_Trend":
-          navigate("/project_6");
-          break;
-          case "Netflix_Dashboard":
-            navigate("/project_7");
+      case "Lay_off_Trend":
+        navigate("/project_6");
+        break;
+      case "Netflix_Dashboard":
+        navigate("/project_7");
+        break;
+        case "Amazon_Dashboard":
+          navigate("/project_8");
           break;
       default:
            break;

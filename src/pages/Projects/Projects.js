@@ -9,6 +9,7 @@ import Proj5 from "../../Images/proj_51.png";
 import imaje from "../../Images/imagine.webp";
 import imaje1 from "../../Images/here.webp";
 import proj7 from "../../Images/net_log.png";
+import proj8 from "../../Images/ama_log.jpg";
 
 
 function Projects() {
@@ -24,6 +25,7 @@ function Projects() {
           <ProjectItem name="Lay_off_Trend" image={imaje1} /> 
 
           <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
+          <ProjectItem name="Amazon_Dashboard" image={proj8} />
       
     </div>
     <a >

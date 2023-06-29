@@ -19,6 +19,7 @@ import Project_4 from './pages/Projects/Project_4';
 import Project_5 from './pages/Projects/Project_5';
 import Project_6 from './pages/Projects/Project_6';
 import Project_7 from './pages/Projects/Project_7';
+import Project_8 from './pages/Projects/Project_8';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/project_5" element={<Project_5 />} />
           <Route path="/project_6" element={<Project_6 />} />
           <Route path="/project_7" element={<Project_7 />} />
+          <Route path="/project_8" element={<Project_8 />} />
         </Routes>
 
         <Footer />
