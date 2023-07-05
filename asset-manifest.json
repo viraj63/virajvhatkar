@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virajvhatkar/static/css/main.2a8e30cf.css",
-    "main.js": "/virajvhatkar/static/js/main.028da62e.js",
+    "main.js": "/virajvhatkar/static/js/main.d968aabf.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
@@ -25,17 +25,17 @@
     "static/media/proj_3.png": "/virajvhatkar/static/media/proj_3.5b312ccd15e5b619d178.png",
     "static/media/viraj_2.jpeg": "/virajvhatkar/static/media/viraj_2.4680e25197df837e7f97.jpeg",
     "static/media/ama_log.jpg": "/virajvhatkar/static/media/ama_log.38a97a7e54bbafaebac4.jpg",
-    "static/media/re.pdf": "/virajvhatkar/static/media/re.0fb006b8daadb1cbb5ea.pdf",
+    "static/media/re1.pdf": "/virajvhatkar/static/media/re1.53b82f2a44e90a743587.pdf",
     "static/media/net_log.png": "/virajvhatkar/static/media/net_log.6884c07aa3bf89eae3c3.png",
     "static/media/pic_1.png": "/virajvhatkar/static/media/pic_1.e4c7b087de63faa2f845.png",
     "static/media/lifi_22.jpg": "/virajvhatkar/static/media/lifi_22.b830719d819bffb9f27f.jpg",
     "index.html": "/virajvhatkar/index.html",
     "main.2a8e30cf.css.map": "/virajvhatkar/static/css/main.2a8e30cf.css.map",
-    "main.028da62e.js.map": "/virajvhatkar/static/js/main.028da62e.js.map",
+    "main.d968aabf.js.map": "/virajvhatkar/static/js/main.d968aabf.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a8e30cf.css",
-    "static/js/main.028da62e.js"
+    "static/js/main.d968aabf.js"
   ]
 }
