@@ -20,6 +20,7 @@ import Project_5 from './pages/Projects/Project_5';
 import Project_6 from './pages/Projects/Project_6';
 import Project_7 from './pages/Projects/Project_7';
 import Project_8 from './pages/Projects/Project_8';
+import Project_9 from './pages/Projects/Project_9';
 import Tab_em_1 from './pages/Projects/Tab_em_1';
 
 
@@ -42,6 +43,7 @@ function App() {
           <Route path="/project_6" element={<Project_6 />} />
           <Route path="/project_7" element={<Project_7 />} />
           <Route path="/project_8" element={<Project_8 />} />
+          <Route path="/project_9" element={<Project_9 />} />
           <Route path="/tab_em_1" element={<Tab_em_1 />} />
         </Routes>
 

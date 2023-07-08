@@ -10,7 +10,7 @@ const { tableau } = window;
 function Project_8() {
 
     const ref = useRef(null);
-    const url = "https://public.tableau.com/views/Book2_amazaon/Dashboard1";
+    const url = "https://public.tableau.com/views/Hr_dasbhoard/HRANALYSTICSDASHBOARD?:language=en-US&:display_count=n&:origin=viz_share_link";
 
     const initViz = () => {
         if (!ref.current.innerHTML) {
@@ -67,7 +67,7 @@ function Project_8() {
 
                     <div className='project_name'>
                         <h2>
-                            Amazon_Dashboard
+                           HR_ANALYTICS DASHBOARD
                         </h2>
                     </div>
 
@@ -80,7 +80,7 @@ function Project_8() {
                         Aim!!
                     </h2>
                     <strong>
-                        To Recreate the insight from the Amazon dataset using Tableau.
+                        To Recreate the insight from the HR dataset using Tableau.
                     </strong>
                     <br>
                     </br>
@@ -128,19 +128,20 @@ Conclusion:
 </h2>
 In summary, this invention provides a portable device that uses multiple cameras to capture a text page, processes the captured image to improve its quality, performs optical character recognition to recognize the text, converts the recognized text into Braille characters, and displays the Braille text on a refreshable Braille device. This enables individuals with visual impairments to access and comprehend textual information effectively.
 <br>
-</br>
+</br><img src={diode_pi} alt='image1' className='diode_image_1' />
 */}
-                    <img src={diode_pi} alt='image1' className='diode_image_1' />
+                    
 
 
-                    I have utilized the Amazon_Prime dataset, available in CSV format, to create an interactive Dashboard that provides various insights. The insights include:<br></br><br></br>
+                    I have utilized the HR dataset, available in CSV format, to create an interactive Dashboard that provides various insights. The insights include:<br></br><br></br>
 
-                    1. The top 10 genres represented in the dataset.<br></br>
-                    2. The total count of movies and TV shows released by each country.<br></br>
-                    3. The distribution of movies and TV shows released by year represented by Donut_pie_chart.<br></br>
-                    4. The most commonly assigned rating for movies and TV shows represented by Radial_bar_chart.<br></br>
+                    1. Attriton rate of Employees by Age group.<br></br>
+                    2. Department wise Attrition.<br></br>
+                    3. How many people are Satisfied with thier roles.<br></br>
+                    4. Attrition rate by Gender in different Age Groups<br></br>
+                    5. Eductaion Field wise Attrition.<br></br>
                     <br></br>
-                    To visualize these insights, I have designed a Tableau Dashboard. <br></br>You can interact with the dashboard to explore the data and find the movie information you're looking for:
+                    To visualize these insights, I have designed a Tableau Dashboard. <br></br>You can interact with the dashboard to explore the data and look for some amazing insights.
 
                             <div  ref={ref} className='tab_101' ></div>
 
@@ -149,7 +150,7 @@ In summary, this invention provides a portable device that uses multiple cameras
                     <br>
                     </br>
 
-                    The type of interaction can be modified to focus on either Movies or TV Shows, allowing for a more tailored and customized experience to obtain information about specific titles within those categories.    { /*<img src={diode_pi} alt='image1' className='diode_image_1' />  */}
+                      { /*<img src={diode_pi} alt='image1' className='diode_image_1' />  */}
                     <br></br><br></br>
                     Using the Tableau JavaScript API I have integrated the Tableau visualizations into my own web applications here.
        
@@ -193,7 +194,7 @@ The received light signals, which have been converted back into electrical signa
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_9" className='box_2'>HR_ANALYTICS DASHBOARD</Link>
+                <Link to="/tab_em_1" className='box_2'>Youtube_Trend_Analysis</Link>
             </div>
         </div>
     )

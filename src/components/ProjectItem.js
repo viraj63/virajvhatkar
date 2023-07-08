@@ -27,9 +27,13 @@ function ProjectItem({ image, name }) {
       case "Netflix_Dashboard":
         navigate("/project_7");
         break;
-        case "Amazon_Dashboard":
-          navigate("/project_8");
-          break;
+      case "Amazon_Dashboard":
+        navigate("/project_8");
+        break;
+
+      case "HR_ANALYTICS":
+        navigate("/project_9");
+        break;
       default:
            break;
     }

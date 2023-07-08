@@ -10,6 +10,7 @@ import imaje from "../../Images/imagine.webp";
 import imaje1 from "../../Images/here.webp";
 import proj7 from "../../Images/net_log.png";
 import proj8 from "../../Images/ama_log.jpg";
+import proj9 from "../../Images/HR_ANA.jpg";
 
 
 function Projects() {
@@ -20,12 +21,14 @@ function Projects() {
           <ProjectItem name="A Portable, Wearable SMART Medicine Pouch" image={Proj1} />
           <ProjectItem name="Li-Fi" image={Proj2} />
           <ProjectItem name="Tableau Viz_Challenge" image={Proj3} />
+          
           <ProjectItem name="Braille Language_Converter" image={Proj4} />
           <ProjectItem name="Object Counter Using IR" image={Proj5} />
           <ProjectItem name="Lay_off_Trend" image={imaje1} /> 
 
           <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
           <ProjectItem name="Amazon_Dashboard" image={proj8} />
+          <ProjectItem name="HR_ANALYTICS" image={proj9} />
       
     </div>
     <a >
