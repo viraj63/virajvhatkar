@@ -322,7 +322,7 @@ The received light signals, which have been converted back into electrical signa
 </br><br>
 </br><br>
 </br>
-    For this page Im trying to integrate React js,Django, SQIlite & Flask for Plotly,Matplotlib for visualtionation..Right now the work is under progress but for the project details you could go through the <a href={require("../../pages/Projects/Layoff_Kaggle1.pdf")}>PDF</a> and the report that is Publieshed on <a href='https://www.linkedin.com/posts/viraj-vhatkar_layoff-trends-since-covid-activity-7023747850031235073--FMJ?utm_source=share&utm_medium=member_desktop'> Linkedin</a>   
+    For this page Im trying to integrate React js,Django, SQIlite  for Plotly,Matplotlib for visualtionation..Right now the work is under progress but for the project details you could go through the <a href={require("../../pages/Projects/Layoff_Kaggle1.pdf")}>PDF</a> and the report that is Publieshed on <a href='https://www.linkedin.com/posts/viraj-vhatkar_layoff-trends-since-covid-activity-7023747850031235073--FMJ?utm_source=share&utm_medium=member_desktop'> Linkedin</a>   
 
 
 </div>
