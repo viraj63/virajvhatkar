@@ -1,7 +1,10 @@
 import React from 'react'
 import './Project_1.css'
 import Plot from 'react-plotly.js';
-
+import Group_chart from '../Graphs/Group_chart';
+import Plot_2 from '../Graphs/Plot_2';
+import Plot_3 from '../Graphs/Plot_3';
+import Plot_4 from '../Graphs/Plot_4';
 import { Link, useLocation } from 'react-router-dom';
 
 function Project_6() {
@@ -204,42 +207,86 @@ And the Trend continues for Retail, Consumer and Sales.</strong>
     </br><br>
     </br>
 
+ 
 
-    <Plot
-      data={[
-        {
-          x: ['2023', '2022', '2020', '2021'],
-          y: [31531.0, 20914.0, 14656.0, 2382.0],
-          name: 'Other',
-          type: 'bar',
-        },
-        {
-          x: ['2023', '2022', '2020', '2021'],
-          y: [26821.0, 19856.0, 8002.0, 3600.0],
-          name: 'Consumer',
-          type: 'bar',
-        },
-        // Add more trace objects for other industries
-      ]}
-      layout={{
-        width: 800,
-        height: 600,
-        title: 'Grouped Bar Plot',
-        xaxis: { title: 'Year' },
-        yaxis: { title: 'Total Laid Off' },
-        barmode: 'group',
-      }}
-    />
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<Group_chart/>
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<strong >Here Is a pie Diagram Showing the % of Employee been Laid-off By Year:
+2022 been the Highest followed by 2020.</strong>
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<Plot_2/>
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<strong >In United States alone SFO has been affected the most by the Layoff and Outside USA Bengaluru,
+INDIA has been affected the most.</strong>
+
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<Plot_3/>
+<br>
+    </br><br>
+    </br><br>
+    </br>
+<Plot_4/>
 
 <br>
     </br><br>
     </br><br>
     </br>
 
+The impact of COVID-19 on the US consumer, retail and transportation market has been significant. The
+pandemic has resulted in widespread layoffs and closures of businesses, causing a sharp decline in
+consumer spending.<br>
+    </br><br>
+    </br>
+Retail sales have dropped significantly as people have been forced to stay home and avoid non-essential
+shopping. Many retailers have had to close their doors, and those that have remained open have seen a
+decline in foot traffic and sales. OK online sales have been increased, but they have not been enough to
+make up for the losses in brick-and-mortar sales.<br>
+    </br><br>
+    </br>
+Transportation has also been affected by the pandemic. Air travel decrease dramatically many airlines
+have had to cut flights and lay off employees. The decline in business travel has also affected the hotel
+and restaurant industries.<br>
+    </br><br>
+    </br>
+The pandemic has had an impact on the logistics and supply chain industries. The closure of factories
+and disruption of global trade has caused delays and shortages in the supply of goods. This has led to
+increased costs and difficulty in getting products to consumers.<br>
+    </br><br>
+    </br>
+Overall, the pandemic has had a significant impact on the US consumer, retail and transportation market
+resulting in widespread layoffs and closures of businesses. It will take time for the market to recover,
+and it is certain when consumer spending will return to pre pandemic levels.<br>
+    </br><br>
+    </br>
+For the rest of the world transportation, finance call mom travel, food, education, retail, consumer has
+been affected for Layoffs.<br>
+    </br><br>
+    </br>
 
-    <Plot
+    { /*<video src={video1} width="600" height="300" controls="controls" autoplay="true" className='vi_1' />
+
+
+   <Plot
       data={[
         {
+
+
           labels: ['Netflix', 'Uber', 'WeWork', 'Bytedance', 'Meta', 'Tesla', 'Twitter', 'Sea', 'Delivery Hero'],
           values: [487600.0 / 4, 123500.0 / 5, 21750.0, 16800.0, 26000.0, 20200.0, 18600.0, 17200.0 / 2, 16600.0 / 2],
           type: 'pie',
@@ -256,9 +303,8 @@ And the Trend continues for Retail, Consumer and Sales.</strong>
         height: 600,
         title: 'Pie Chart',
       }}
-    />  
 
-    { /*<video src={video1} width="600" height="300" controls="controls" autoplay="true" className='vi_1' />
+    />  
     <br>
     </br>
     <br>
