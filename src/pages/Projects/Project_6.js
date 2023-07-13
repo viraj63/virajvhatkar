@@ -5,6 +5,7 @@ import Group_chart from '../Graphs/Group_chart';
 import Plot_2 from '../Graphs/Plot_2';
 import Plot_3 from '../Graphs/Plot_3';
 import Plot_4 from '../Graphs/Plot_4';
+import Graph_2 from '../Graphs/Graph_2';
 import { Link, useLocation } from 'react-router-dom';
 
 function Project_6() {
@@ -101,7 +102,7 @@ lost their jobs or experienced reduced hours or pay.   <br>
                             },
                         ]}
                         layout={{
-                            width: 800,
+                            width: 1300,
                             height: 600,
                             title: 'Top companies with highest laid off Since Covid-19',
                             xaxis: { title: 'Company' },
@@ -141,7 +142,7 @@ particularly hard hit include:<br>
         },
       ]}
       layout={{
-        width: 800,
+        width: 1300,
         height: 600,
         title: 'Joint Bar Graph',
         barmode: 'group',
@@ -278,7 +279,7 @@ For the rest of the world transportation, finance call mom travel, food, educati
 been affected for Layoffs.<br>
     </br><br>
     </br>
-
+    <Graph_2/>
     { /*<video src={video1} width="600" height="300" controls="controls" autoplay="true" className='vi_1' />
 
 
