@@ -11,6 +11,7 @@ import imaje1 from "../../Images/here.webp";
 import proj7 from "../../Images/net_log.png";
 import proj8 from "../../Images/ama_log.jpg";
 import proj9 from "../../Images/HR_ANA.jpg";
+import proj10 from "../../Images/data_brea.png";
 
 
 function Projects() {
@@ -29,6 +30,8 @@ function Projects() {
           <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
           <ProjectItem name="Amazon_Dashboard" image={proj8} />
           <ProjectItem name="HR_ANALYTICS" image={proj9} />
+
+          <ProjectItem name="Data_Breach" image={proj10} />
       
     </div>
     <a >

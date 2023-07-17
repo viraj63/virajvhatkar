@@ -34,6 +34,12 @@ function ProjectItem({ image, name }) {
       case "HR_ANALYTICS":
         navigate("/project_9");
         break;
+
+      case "Data_Breach":
+          navigate("/project_10");
+          break;
+
+      
       default:
            break;
     }

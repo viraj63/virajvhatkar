@@ -194,7 +194,7 @@ The received light signals, which have been converted back into electrical signa
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/tab_em_1" className='box_2'>Youtube_Trend_Analysis</Link>
+                <Link to="/project_10" className='box_2'>Data_Breach</Link>
             </div>
         </div>
     )
