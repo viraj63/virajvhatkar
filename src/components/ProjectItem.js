@@ -38,7 +38,9 @@ function ProjectItem({ image, name }) {
       case "Data_Breach":
           navigate("/project_10");
           break;
-
+      case "Videogames_Release_2022_Analysis":
+            navigate("/project_11");
+            break;
       
       default:
            break;

@@ -32,6 +32,7 @@ function Projects() {
           <ProjectItem name="HR_ANALYTICS" image={proj9} />
 
           <ProjectItem name="Data_Breach" image={proj10} />
+          <ProjectItem name="Videogames_Release_2022_Analysis" image={imaje1} />
       
     </div>
     <a >

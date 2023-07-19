@@ -134,7 +134,7 @@ The Science Behind it!
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_10" className='box_2'>Data_Breach</Link>
+                <Link to="/project_11" className='box_2'>Videogames_Release_2022_Analysis</Link>
             </div>
         </div>
     )
