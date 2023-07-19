@@ -228,7 +228,10 @@ function Project_11() {
                     }}
                 />
 
-
+<br>
+                </br>
+                <br>
+                </br>
                 <Plot
                     data={[
                         {//JANUARY
@@ -344,7 +347,7 @@ function Project_11() {
                         grid: { rows: 3, columns: 4, pattern: 'independent' },
                         width: 1300,
                         height: 1000,
-                        title: 'Joint Bar Graph',
+                        title: 'SUBPLOT',
                        
                        // xaxis: { title: 'Day of the Month' },
                         //yaxis: { title: 'Value_Count Each Month Game Released' },
@@ -556,6 +559,27 @@ function Project_11() {
                 <strong>Observation_3:</strong> <br>
                 </br>Here we would see which platforms are the most popular in the gaming world in 
 2022.<br>
+                </br>
+                <Plot
+                        data={[
+                            {
+                                x: ['NS', 'Win', 'PS4', 'PS5', 'XBO', 'XSX', 'iOS', 'Mac', 'Stadia', 'Droid', 'Lin', 'Atari VCS', 'PS5WW: Win',  '[c] PS4[c]', 'Arcade', '3DS', 'EU: NS', 'JP: NS', 'PS4WW: Win', '| Droid', 'JP: PS4'],
+
+                                y: [490, 487, 404, 317, 304, 284, 54, 50, 46, 44, 32, 4, 2, , 1, 1, 1, 1, 1, 1, 1, 1, 1],
+
+                                type: 'bar',
+                                name: 'Total Laid Off',
+                            },
+                        ]}
+                        layout={{
+                            width: 1300,
+                            height: 600,
+                            title: 'Top companies with highest laid off Since Covid-19',
+                            xaxis: { title: 'Company' },
+                            yaxis: { title: 'Total Laid Off' },
+                        }}
+                    />
+                <br>
                 </br><br>
                 </br>
 It seems that Nintendo and windows have been the most popular platforms in the 
@@ -564,15 +588,104 @@ year 2022 with the greatest number of game released.<br>
 Thus, the user/customer could opt for purchasing games for the platforms Nintendo 
 and windows because he can experience more number of games released for these 
 platforms.<br>
+                </br><br>
+                </br><br>
                 </br>
+                <Plot
+                    data={[
+                        {//JANUARY
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [23, 38, 24, 34, 34, 65, 51, 44, 72, 40, 35, 30],
+                            type: 'scatter',
+                            name: 'NS',
+                        },
+                        {//FEBRUARY
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [17, 32, 29, 26, 27, 53, 43, 40, 53, 35, 23, 26],
+                            type: 'scatter',
+                            name: 'PS4',
+                        },
+                        {//MARCH
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [23, 29, 30, 27, 48, 54, 49, 64, 57, 49, 35, 22],
 
+                            type: 'scatter',
+                            name: 'Win',
+                        },
+
+                        {//APRIl
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [14, 22, 22, 14, 21, 37, 21, 41, 44, 28, 31, 22],
+                            type: 'scatter',
+                            name: 'PS4',
+                        },
+
+                        {//MAY
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [18, 20, 17, 16, 25, 39, 33, 34, 33, 31, 22, 16],
+                            type: 'scatter',
+                            name: 'XBO',
+                        },
+                        {//JUNE
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [18, 20, 17, 16, 25, 39, 33, 34, 33, 31, 22, 16],
+                            type: 'scatter',
+                            name: 'XSX',
+                        },
+                        {//JULY
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [5, 5, 4, 2, 9, 7, 4, 7, 3, 2, 4, 2],
+                            type: 'scatter',
+                            name: 'iOS',
+                        },
+
+
+                        {//AUGUST
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [3, 2, 3, 3, 7, 11, 4, 10, 1, 4, 2],
+                            type: 'scatter',
+                            name: 'Mac',
+                        },
+
+                        {//SEPTEMBER
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [4, 4, 2, 3, 5, 10, 10, 2, 3, 2, 1,0],
+                            type: 'scatter',
+                            name: 'Stadia',
+                        },
+
+
+                        {//OCTOBER
+                            x: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+                            y: [4, 4, 2, 3, 5, 10, 10, 2, 3, 2, 1],
+                            type: 'scatter',
+                            name: 'Droid',
+                        },
+
+                       
+
+                    ]}
+                    layout={{
+                        width: 1300,
+                        height: 600,
+                        title: '',
+                        barmode: 'group',
+                        xaxis: { title: 'Months' },
+                        yaxis: { title: 'Value_Count Each Month Game Released' },
+                        legend: { title: 'Platform(s)' },
+
+                    }}
+                />
                 <br>
                 </br><br>
                 </br><br>
                 </br>
 
 
-
+                <strong>Observation_4:</strong> <br>
+                </br>Which genres are the most popular among the 2022 releases.
+<br>
+                </br>
             
                 
                 <br>
