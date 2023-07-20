@@ -740,7 +740,7 @@ Entertainment and Nis America.
                 </br><br>
                 </br><br>
                 </br>
-                For this page Im trying to integrate React js,Django, SQI lite  for Plotly, D3  visualtionation.
+                For this page I'm trying to integrate React js,Django, SQI lite  for Plotly, D3  visualtionation.
 
 
             </div>
