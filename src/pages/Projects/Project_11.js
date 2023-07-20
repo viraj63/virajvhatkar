@@ -556,9 +556,9 @@ function Project_11() {
                 </br>
                 <br>
                 </br>
-                <strong>Observation_3:</strong> <br>
-                </br>Here we would see which platforms are the most popular in the gaming world in 
+                <strong>Observation_3:</strong> Here we would see which platforms are the most popular in the gaming world in 
 2022.<br>
+                </br><br>
                 </br>
                 <Plot
                         data={[
@@ -682,132 +682,61 @@ platforms.<br>
                 </br>
 
 
-                <strong>Observation_4:</strong> <br>
-                </br>Which genres are the most popular among the 2022 releases.
-<br>
+                <strong>Observation_4:</strong>Which genres are the most popular among the 2022 releases. <br>
+                </br><br>
                 </br>
-            
+                <Plot
+                    data={[
+                        {
+                            x: ['Adventure', 'Action role-playing', 'Role-playing', 'Action-adventure', 'Visual novel', 'Action', 'Puzzle', 'First-person shooter', 'Platform', 'Shoot em up', 'role-playing', 'Survival horror', 'Racing', 'Tactical role-playing', 'Sports', 'platform', 'Simulation', 'Beat em up', 'Fighting', 'action'],
+
+                            y: [99, 85, 77, 64, 62, 44, 34, 31, 30, 29, 28, 26, 26, 25, 23, 22, 22, 17, 17, 15],
+                            type: 'bar',
+                            name: 'Games Released under each Genre',
+                        },
+                    ]}
+                    layout={{
+                        width: 1300,
+                        height: 600,
+                        title: 'Games Released under each Genre',
+                        xaxis: { title: 'Genre(s)' },
+                        yaxis: { title: 'Value_Count' },
+                    }}
+                />
                 
                 <br>
                 </br><br>
+                </br>Clearly, Adventure, Action role-playing, Role-playing, Action-adventure & Visual 
+novel are the most prevalent among all the games released in the year 2022<br>
                 </br><br>
                 </br>
                
-                <br>
-                </br><br>
+                <Plot
+                    data={[
+                        {
+                            x: ['Square Enix', 'Nippon Ichi Software', 'Konami', 'Mages', 'Inti Creates', 'Idea Factory', 'Capcom', 'WayForward', 'Compile Heart', 'Humongous Entertainment', 'Spike Chunsoft', 'City Connection', 'SNK', 'Acquire', 'Tango Gameworks', 'Nihon Falcom', 'Kadokawa Games', 'Crypton Future Media', 'CyberConnect2', 'Ubisoft', 'Hakama'],
+
+                            y: [15, 13, 9, 8, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4],
+                            type: 'bar',
+                            name: 'Total Games Released by each Developer.',
+                        },
+                    ]}
+                    layout={{
+                        width: 1300,
+                        height: 600,
+                        title: 'Total Games Released by each Developer.',
+                        xaxis: { title: 'Developer(s)' },
+                        yaxis: { title: 'Total Games Released' },
+                    }}
+                /><br>
                 </br><br>
                 </br>
+
+Most Games were published under the banner of Square Enix, Bandai Namco 
+Entertainment and Nis America.
+
                 
-                <br>
-                </br><br>
-                </br><br>
-                </br>
-             
-
-                <br>
-                </br><br>
-                </br><br>
-                </br>
-                
-                <br>
-                </br><br>
-                </br><br>
-                </br>
-                
-
-                <br>
-                </br><br>
-                </br><br>
-                </br>
-
-            
-                
-                { /*<video src={video1} width="600" height="300" controls="controls" autoplay="true" className='vi_1' />
-
-
-   <Plot
-      data={[
-        {
-
-
-          labels: ['Netflix', 'Uber', 'WeWork', 'Bytedance', 'Meta', 'Tesla', 'Twitter', 'Sea', 'Delivery Hero'],
-          values: [487600.0 / 4, 123500.0 / 5, 21750.0, 16800.0, 26000.0, 20200.0, 18600.0, 17200.0 / 2, 16600.0 / 2],
-          type: 'pie',
-          hoverinfo: 'label+value', // Show label and value on hover
-          textinfo: 'percent',
-          textposition: 'inside',
-          marker: {
-            colors: ['red', 'black', 'green', 'yellow', 'blue', 'white', 'mint', 'magenta', 'gray'],
-          },
-        },
-      ]}
-      layout={{
-        width: 800,
-        height: 600,
-        title: 'Pie Chart',
-      }}
-
-    />  
-    <br>
-    </br>
-    <br>
-    </br>
-    Once the image of the text page has been captured, it undergoes further processing to enhance its quality. This processing step aims to improve the resolution and clarity of the image, making it easier to recognize the text accurately.
-    <br>
-    </br>
-    <br>
-    </br>
-    After the image has been processed, the device utilizes optical character recognition (OCR) technology to recognize the text present in the image. OCR algorithms analyze the image and identify individual characters and words within it. This process allows the device to convert the visual text into machine-readable text.
-    <br>
-    </br>
-    <br>
-    </br>
-    Once the text has been recognized, the device proceeds to convert it into Braille characters. Braille is a tactile writing system used by individuals with visual impairments, where characters are represented as raised dots on a surface. The device translates the recognized text into the corresponding Braille characters.
-    <br>
-    </br>
-    <br>
-    </br>
-    To display the converted Braille text, the device incorporates a refreshable Braille device. A refreshable Braille display consists of a grid of small, electronically controlled pins that can be raised or lowered to form Braille characters. The device sends the converted Braille text to this display, which then presents the tactile representation of the text for a visually impaired individual to read.
-    <br>
-    </br>
-    <br>
-    </br>
-    <h2>
-        Conclusion:
-    </h2>
-    In summary, this invention provides a portable device that uses multiple cameras to capture a text page, processes the captured image to improve its quality, performs optical character recognition to recognize the text, converts the recognized text into Braille characters, and displays the Braille text on a refreshable Braille device. This enables individuals with visual impairments to access and comprehend textual information effectively.
-    <br>
-    </br>
-*/}
-
-                { /*<img src={diode_pi} alt='image1' className='diode_image_1' />  */}
-                { /*
-<br>
-</br>
-<h2>
-Working:
-</h2>
-The transmitter circuit for the DIY Li-Fi speaker consists of three amplifiers configured in parallel mode. The audio signals from a mobile phone or any audio source are first amplified by the common-emitter (CE) amplifiers. These amplifiers boost the audio signals to a suitable level for transmission.
-<br>
-</br>
-<br>
-</br>
-By interfacing the solar panel with the audio port of the speaker, the light signals received by the solar panel are converted back into electrical signals, which are then fed as input to the speaker. This allows the speaker to reproduce the audio signals transmitted through light.
-
-<br>
-</br>
-<br>
-</br>
-Here  when  the light signals are transmitted and received by the photodetectors, the next step is to amplify the received signals before sending them to the speakers.Many a times the amplification circuits are built in with speaker but here we had to build it from scratch.
-<br>
-</br>
-<br>
-</br>
-The received light signals, which have been converted back into electrical signals by the photodetectors, may be weak and need to be strengthened for proper audio playback. This amplification process ensures that the signals are of sufficient strength to drive the speakers effectively.    <br>
-</br>
-<br>
-</br>Right now the work is under progress but for the project details you could go through the <a href={require("../../pages/Projects/Layoff_Kaggle1.pdf")}>PDF</a> and the report that is Publieshed on <a href='https://www.linkedin.com/posts/viraj-vhatkar_layoff-trends-since-covid-activity-7023747850031235073--FMJ?utm_source=share&utm_medium=member_desktop'> Linkedin</a>
-*/}<br>
+               <br>
                 </br><br>
                 </br><br>
                 </br>
