@@ -186,7 +186,12 @@ The received light signals, which have been converted back into electrical signa
 </br>
 <br>
 </br>
-*/}
+*/}    <iframe
+src="./networkInteractive2.html" // Path to the R htmlwidget file
+width="800px" // Set the width and height as per your preference
+height="600px"
+title="Network Graph"
+/>
 
 
                 </div>

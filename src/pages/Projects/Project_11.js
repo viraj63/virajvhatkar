@@ -1,11 +1,8 @@
 import React from 'react'
 import './Project_1.css'
 import Plot from 'react-plotly.js';
-import Group_chart from '../Graphs/Group_chart';
-import Plot_2 from '../Graphs/Plot_2';
-import Plot_3 from '../Graphs/Plot_3';
-import Plot_4 from '../Graphs/Plot_4';
-import Graph_2 from '../Graphs/Graph_2';
+import Iframe from 'react-iframe';
+
 import { Link, useLocation } from 'react-router-dom';
 function Project_11() {
     return (
@@ -727,6 +724,7 @@ novel are the most prevalent among all the games released in the year 2022<br>
                         title: 'Total Games Released by each Developer.',
                         xaxis: { title: 'Developer(s)' },
                         yaxis: { title: 'Total Games Released' },
+                        legend: { title: 'Release_Months' },
                     }}
                 /><br>
                 </br><br>
@@ -740,9 +738,23 @@ Entertainment and Nis America.
                 </br><br>
                 </br><br>
                 </br>
-                For this page I'm trying to integrate React js,Django, SQI lite  for Plotly, D3  visualtionation.
+                For this page I'm trying to integrate React js,Django, SQI lite  for Plotly, D3  visualtionation.<br>
+                </br><br>
+                </br>
+                <a className='box_1'> Next Project  </a>
+                <Link to="/project_10" className='box_2'>Data_Breach</Link>
+                <iframe
+  url="./ni2.html"
+  width="100%"
+  height="500px"
+  id="myId"
+  className="myClassname"
+  display="initial"
+  position="relative"
+  sandbox="allow-scripts allow-same-origin"
+/>
 
-
+      
             </div>
         </div>
     )
