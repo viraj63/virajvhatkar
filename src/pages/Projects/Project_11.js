@@ -1,7 +1,6 @@
 import React from 'react'
 import './Project_1.css'
 import Plot from 'react-plotly.js';
-import Iframe from 'react-iframe';
 
 import { Link, useLocation } from 'react-router-dom';
 function Project_11() {
@@ -742,17 +741,10 @@ Entertainment and Nis America.
                 </br><br>
                 </br>
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_10" className='box_2'>Data_Breach</Link>
-                <iframe
-  url="./ni2.html"
-  width="100%"
-  height="500px"
-  id="myId"
-  className="myClassname"
-  display="initial"
-  position="relative"
-  sandbox="allow-scripts allow-same-origin"
-/>
+               
+                <a href="https://viraj63.github.io/vt.github.io/" className='box_2'>Testing_project_work_under_progress</a>
+
+
 
       
             </div>
