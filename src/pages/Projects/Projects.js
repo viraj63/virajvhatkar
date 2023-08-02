@@ -12,6 +12,7 @@ import proj7 from "../../Images/net_log.png";
 import proj8 from "../../Images/ama_log.jpg";
 import proj9 from "../../Images/HR_ANA.jpg";
 import proj10 from "../../Images/data_brea.png";
+import proj12 from "../../Images/proj12_3.png";
 
 
 function Projects() {
@@ -24,7 +25,7 @@ function Projects() {
 
 
 
-
+    <ProjectItem name="APPLE_INC" image={proj12} />
     <ProjectItem name="Videogames_Release_2022_Analysis" image={imaje1} />
     <ProjectItem name="Data_Breach" image={proj10} />
 

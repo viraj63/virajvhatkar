@@ -6,6 +6,9 @@ function ProjectItem({ image, name }) {
 
   const handleClick = () => {
     switch (name) {
+      case "APPLE_INC":
+        navigate("/project_12");
+        break;
       case "Videogames_Release_2022_Analysis":
         navigate("/project_11");
         break;
