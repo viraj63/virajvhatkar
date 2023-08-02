@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/virajvhatkar/static/css/main.068cd59f.css",
-    "main.js": "/virajvhatkar/static/js/main.455a300f.js",
+    "main.css": "/virajvhatkar/static/css/main.62a2c3ef.css",
+    "main.js": "/virajvhatkar/static/js/main.843ab54a.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
@@ -34,12 +34,12 @@
     "static/media/output21.xlsx": "/virajvhatkar/static/media/output21.36a5097a12b4011a5c1a.xlsx",
     "static/media/output.xlsx": "/virajvhatkar/static/media/output.3e52abd21ea9dbc1ad57.xlsx",
     "index.html": "/virajvhatkar/index.html",
-    "main.068cd59f.css.map": "/virajvhatkar/static/css/main.068cd59f.css.map",
-    "main.455a300f.js.map": "/virajvhatkar/static/js/main.455a300f.js.map",
+    "main.62a2c3ef.css.map": "/virajvhatkar/static/css/main.62a2c3ef.css.map",
+    "main.843ab54a.js.map": "/virajvhatkar/static/js/main.843ab54a.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.068cd59f.css",
-    "static/js/main.455a300f.js"
+    "static/css/main.62a2c3ef.css",
+    "static/js/main.843ab54a.js"
   ]
 }
