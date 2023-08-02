@@ -81,7 +81,51 @@ function Project_10() {
                         Apple Inc.: A Journey of Innovation and Global Impact
                     </h2>
                     <div ref={ref} className='tab_101' ></div>
-                    Using the Tableau JavaScript API I have integrated the Tableau visualizations into my own web applications here.
+
+
+                    <div className='details'>
+                        Data visualization is a crucial step in the data analysis process as it helps to
+                        communicate insights effectively and gain a deeper understanding of the data.
+                        <br>
+                        </br>
+                        From Data Acquisition to Dashboard Refinement and Sharing: Learn, Practice, Implement and Refine Your Skills!
+                        <br>
+                        </br><br>
+                        </br>
+                        
+                        The first step was data acquisition, where I collected data from various sources, including Wikipedia and Kaggle. I used some handy tools like pyscrapy(a Python web scraping library) and SQL to retrieve the data from different databases and web pages.
+                        It was crucial to ensure the data's quality since it would directly impact the analysis.
+                        <br>
+                        </br><br>
+                        </br>
+                        Once I had the data, the next step was data cleaning. I must admit, this part was exhausting and time-consuming. It took me a day or two to clean and align the data properly, making it more usable for analysis.
+                        I focused on removing duplicates, handling missing values through imputation or elimination, and dealing with outliers that could skew the results.
+                        <br></br>
+                        <br>
+                        </br>After the data was cleaned and prepped, I proceeded with data transformation. This step involved converting the data into a suitable format for analysis and visualization. I normalized certain numerical data to a common scale and encoded categorical variables.
+                         Some parts of the data required transformation to enhance visualization and improve the representation of trends and patterns.
+                         <br>
+                         </br><br>
+                         </br>
+                         With the transformed data, I delved into Exploratory Data Analysis (EDA). This was one of the most exciting parts as I got to explore the data, uncover hidden insights, and understand the relationships among different variables. 
+                         I used descriptive statistics, summary plots, and various data visualization techniques to better understand the data. 
+                         <br>
+                         </br>
+                         <br>
+                         </br>
+                         Once I had a good understanding of the data, I proceeded to the final part of the project: data visualization. This step was crucial as it helped me communicate the insights effectively to my audience. I decided to use Tableau to create an interactive and visually appealing dashboard. 
+                         It was a great choice since Tableau allowed me to present the data in an easily understandable format.
+                         <br>
+                         </br>
+                         <br></br>
+                         To build the Tableau dashboard, I carefully selected the appropriate visualization types for each insight. I arranged the visualizations on the dashboard canvas to create a cohesive and informative layout. 
+                         Tableau's interactive features, like filters and drill-down options, added a dynamic element to the dashboard, enabling users to explore the data interactively.
+                         <br></br>
+                         Finally after the completion, to share the dashboard to my audence , I have embedded it to my website using the Tableau JavaScript API and sharing a copy of it on linkedIn on 8/3/2022.
+                        
+                    </div>
+                    <br>
+                </br>
                 </div>
                 <br>
                 </br>
