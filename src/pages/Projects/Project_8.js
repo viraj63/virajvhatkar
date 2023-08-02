@@ -1,5 +1,5 @@
 import React ,{useEffect, useRef} from 'react'
-import './Project_1.css'
+import './Project_8.css'
 //import projectimag from '../../Images/proj_3.png';
 import diode_pi from '../../Images/ama_log_1.png';
 //import video1 from "../../Images/proj_4.mp4";
@@ -193,7 +193,7 @@ The received light signals, which have been converted back into electrical signa
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_9" className='box_2'>HR_ANALYTICS DASHBOARD</Link>
+                <Link to="/project_7" className='box_2'>Netflix_Dashboard</Link>
             </div>
         </div>
     )

@@ -186,7 +186,7 @@ The received light signals, which have been converted back into electrical signa
                 <a className='box_1'> Next Project  </a>
 
               
-                    <Link to="/project_8" className='box_2'>Amazon_Prime_DashBoard</Link> 
+                    <Link to="/project_6" className='box_2'>Lay_off_Trend</Link> 
 
 
 

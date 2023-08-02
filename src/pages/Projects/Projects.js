@@ -18,21 +18,36 @@ function Projects() {
     return (  <div className="projects">
     <h1> My Personal Projects</h1>
     <div className="projectList">
-      
-          <ProjectItem name="A Portable, Wearable SMART Medicine Pouch" image={Proj1} />
-          <ProjectItem name="Li-Fi" image={Proj2} />
-          <ProjectItem name="Tableau Viz_Challenge" image={Proj3} />
+
+
+
+
+
+
+
+    <ProjectItem name="Videogames_Release_2022_Analysis" image={imaje1} />
+    <ProjectItem name="Data_Breach" image={proj10} />
+
+    <ProjectItem name="HR_ANALYTICS" image={proj9} />
+    <ProjectItem name="Amazon_Dashboard" image={proj8} />
+    <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
+
+    
+    <ProjectItem name="Lay_off_Trend" image={imaje1} /> 
+    <ProjectItem name="Object Counter Using IR" image={Proj5} />
+    <ProjectItem name="Braille Language_Converter" image={Proj4} />
           
-          <ProjectItem name="Braille Language_Converter" image={Proj4} />
-          <ProjectItem name="Object Counter Using IR" image={Proj5} />
-          <ProjectItem name="Lay_off_Trend" image={imaje1} /> 
+          
+          
+    <ProjectItem name="Tableau Viz_Challenge" image={Proj3} />
+         
+          <ProjectItem name="Li-Fi" image={Proj2} />
+          <ProjectItem name="A Portable, Wearable SMART Medicine Pouch" image={Proj1} />
+          
+          
 
-          <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
-          <ProjectItem name="Amazon_Dashboard" image={proj8} />
-          <ProjectItem name="HR_ANALYTICS" image={proj9} />
-
-          <ProjectItem name="Data_Breach" image={proj10} />
-          <ProjectItem name="Videogames_Release_2022_Analysis" image={imaje1} />
+          
+          
       
     </div>
     <a >

@@ -129,7 +129,7 @@ The received light signals, which have been converted back into electrical signa
 <a className='box_1'> Next Project  </a>
 
 {/*<a  href="../../pages/Projects/project_3"  className='box_2' ></a> */}
-<Link to="/project_3" className='box_2'>Tableau Viz_Challenge</Link>   
+<Link to="/project_1" className='box_2'>A Portable, Wearable SMART Medicine Pouch</Link>   
 
 
       

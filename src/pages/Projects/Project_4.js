@@ -158,7 +158,7 @@ The received light signals, which have been converted back into electrical signa
 <a className='box_1'> Next Project  </a>
 
   
-<Link to="/project_5" className='box_2'>Object Counter Using IR</Link> 
+<Link to="/project_3" className='box_2'>Tableau Viz_Challenge</Link> 
 
    
       

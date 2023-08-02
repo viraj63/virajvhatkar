@@ -187,7 +187,7 @@ function Project_5() {
 
 <a className='box_1'> Next Project  </a>
 
-<Link to="/project_6" className='box_2'>Lay_off_Trend</Link> 
+<Link to="/project_4" className='box_2'>Braille Language_Converter</Link> 
 
 </div>
 
