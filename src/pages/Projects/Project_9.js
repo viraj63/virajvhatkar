@@ -117,7 +117,7 @@ The Science Behind it!
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_8" className='box_2'>Amazon_Dashboard</Link>
+                <Link to="/project_13" className='box_2'>Ogauge Pressure Trasnmitter Accuracy Test</Link>
             </div>
         </div>
     )
