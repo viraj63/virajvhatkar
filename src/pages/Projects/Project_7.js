@@ -139,7 +139,7 @@ function Project_7() {
                     <br></br>
                     To visualize these insights, I have designed a Tableau Dashboard. <br></br>You can interact with the dashboard to explore the data and find the movie information you're looking for:
                     
-                    <div  ref={ref} className='tab_102'></div>
+                    <div  ref={ref} className='tab_107'></div>
                     <br>
                     </br>
                     <br>
