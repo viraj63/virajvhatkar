@@ -741,7 +741,7 @@ Entertainment and Nis America.
                 </br><br>
                 </br>
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_12" className='box_2'>Data_Breach</Link>
+                <Link to="/project_10" className='box_2'>Data_Breach</Link>
 
 
 

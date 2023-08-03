@@ -198,10 +198,5 @@ The received light signals, which have been converted back into electrical signa
         </div>
     )
 }
-{/*const setVizStyle = {
-    width: "700px",   // 100% of the viewport width
-    height: "400px",  // 100% of the viewport height
-    marginBottom: "90px",
-  
-  };*/}
+
 export default Project_8

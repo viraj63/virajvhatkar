@@ -131,7 +131,7 @@ function Project_10() {
                 </br>
 
                 <a className='box_1'> Next Project  </a>
-                <Link to="/project_9" className='box_2'>HR_ANALYTICS</Link>
+                <Link to="/project_11" className='box_2'>Videogames_Release_2022_Analysis</Link>
             </div>
         </div>
     )
