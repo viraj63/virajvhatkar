@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/virajvhatkar/static/css/main.958da29e.css",
+    "main.css": "/virajvhatkar/static/css/main.5e2bb24d.css",
     "main.js": "/virajvhatkar/static/js/main.a0f68206.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
@@ -34,12 +34,12 @@
     "static/media/output21.xlsx": "/virajvhatkar/static/media/output21.36a5097a12b4011a5c1a.xlsx",
     "static/media/output.xlsx": "/virajvhatkar/static/media/output.3e52abd21ea9dbc1ad57.xlsx",
     "index.html": "/virajvhatkar/index.html",
-    "main.958da29e.css.map": "/virajvhatkar/static/css/main.958da29e.css.map",
+    "main.5e2bb24d.css.map": "/virajvhatkar/static/css/main.5e2bb24d.css.map",
     "main.a0f68206.js.map": "/virajvhatkar/static/js/main.a0f68206.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.958da29e.css",
+    "static/css/main.5e2bb24d.css",
     "static/js/main.a0f68206.js"
   ]
 }
