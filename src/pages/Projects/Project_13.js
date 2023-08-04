@@ -49,12 +49,10 @@ function Project_4() {
                 </div>
                 <div className='project_content_101'>
                     <h2>
-Aim!
+
                     </h2>
                     <strong>
-                        The motive is to
-                        produce a text to Braille and vice-versa portable device that can be made at low cost
-                        and gives an opportunity for many visually impaired people.
+                  
                     </strong>
                     <br>
                     </br><br>
