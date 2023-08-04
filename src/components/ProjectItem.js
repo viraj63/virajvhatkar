@@ -15,6 +15,9 @@ function ProjectItem({ image, name }) {
       case "Data_Breach":
         navigate("/project_10");
         break;
+        case "Ogauge Pressure Trasnmitter Accuracy Test":
+          navigate("/project_13");
+          break;
       case "HR_ANALYTICS":
         navigate("/project_9");
         break;
