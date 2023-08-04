@@ -13,6 +13,7 @@ import proj8 from "../../Images/ama_log.jpg";
 import proj9 from "../../Images/HR_ANA.jpg";
 import proj10 from "../../Images/data_brea.png";
 import proj12 from "../../Images/proj12_3.png";
+import proj13 from "../../Images/proj13_icon.png";
 
 
 function Projects() {
@@ -30,6 +31,7 @@ function Projects() {
     <ProjectItem name="Data_Breach" image={proj10} />
 
     <ProjectItem name="HR_ANALYTICS" image={proj9} />
+    <ProjectItem name="Ogauge Pressure Trasnmitter Accuracy Test" image={proj13} />
     <ProjectItem name="Amazon_Dashboard" image={proj8} />
     <ProjectItem name="Netflix_Dashboard" image={proj7} /> 
 

@@ -88,9 +88,14 @@ function Project_10() {
                         communicate insights effectively and gain a deeper understanding of the data.
                         <br>
                         </br>
-                        From Data Acquisition to Dashboard Refinement and Sharing: Learn, Practice, Implement and Refine Your Skills!
+                        Storytelling demands a dance with curiosity, an embrace of perpetual learning, where with practice,  imagination moves beyond the boundaries of the known. The whispers of curiosity reveal the silver lining that beckons us to explore the unknown realms of inspiration. 
+                        Each tale becomes a stepping stone, guiding us towards the uncharted territories of creativity.
                         <br>
                         </br><br>
+                        </br>And so, the journey continues, sometimes reaching a satisfying conclusion and at times encountering unexpected results. Yet, with every end, there comes a new beginning, opening doors to further exploration and endless possibilities.
+                         The art of storytelling is a perpetual cycle, where growth and discovery intertwine, leaving an indelible mark on the storyteller's soul and the hearts of those who embrace the enchantment of their narratives.
+
+                        <br>                       </br><br>
                         </br>
                         
                         The first step was data acquisition, where I collected data from various sources, including Wikipedia and Kaggle. I used some handy tools like pyscrapy(a Python web scraping library) and SQL to retrieve the data from different databases and web pages.
