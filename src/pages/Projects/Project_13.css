@@ -105,6 +105,32 @@
     display: flex;
 }
 
+
+.tab1111 { 
+    width:600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-left: 700px;
+}
+ 
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+}
+ 
+th {
+    border-bottom: 1px solid black;
+}
+ 
+td {
+    text-align: center;
+}
+
+
+
+
 .box_1 {
     background-color: #40e0d0;
     border: 3px solid #afeeee;

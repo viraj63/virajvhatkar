@@ -6,6 +6,13 @@ import proj12_ogauge from '../../Images/proj12_ogauge.png';
 import video2 from "../../Images/proj12_video12.mp4";
 import proj12_excel from '../../Images/proj12_excel.png';
 import proj12_excel_2 from '../../Images/proj12_excel_2.png';
+import proj13_11 from '../../Images/proj13_11.png';
+import proj13_12 from '../../Images/proj13_12.png';
+import proj13_13 from '../../Images/proj13_13.png';
+
+import proj13_21 from '../../Images/proj13_21.png';
+import proj13_22 from '../../Images/proj13_22.png';
+import proj13_23 from '../../Images/proj13_23.png';
 function Project_4() {
     return (
         <div>
@@ -145,9 +152,73 @@ Below are some images of the Calulations carried on the data acquired.
 <img src={proj12_excel_2} alt='image1' className='image_3' /> 
 <br></br><br></br>
 The <a href={require("./Accuracy.pdf")} download="Performace_Excel_report">Link</a> to the Calculation Pdf is attached.
+<br>
+</br>
 
+<h4>
+Observation of time series pressure signal :
+</h4>
+Pressure is being monitored within the range of 1 to 9 kg/cm^2, with a set point of 5 kg/cm^2.The time series pressure signal data is recorded and available in Excel format on a dashboard. Two key statistical parameters, mean and variance, are being analyzed to understand the behavior of the pressure signal.
+<br>
+</br><br>
+</br>
+By analyzing the mean and variance of the time series pressure data, we can gain valuable information about the pressure behavior, its stability, and fluctuations within the monitored range. This information is crucial for ensuring the system's reliability and detecting any abnormal pressure trends
 
+<div className='imgggg'>
+      <div style={{ display: 'flex' }}>
+        <img src={proj13_11} alt="Image 1" style={{ width: '33%', height: 'auto' }} />
+        <img src={proj13_12} alt="Image 2" style={{ width: '33%', height: 'auto' }} />
+        <img src={proj13_13} alt="Image 3" style={{ width: '33%', height: 'auto' }} />
+      </div>
+<br>
+</br>
+The Auto-covariance function (ACVF) measures the covariance between two samples of a time-series. It depends on the time lag between the samples for stationary processes. It is a crucial tool for analyzing univariate linear time-series data.<br>
+</br><br>
+</br>
+Mathematical Models that express the predictable part of the present conditions of a process as only a function of its past conditions are termed as Auto-regressive models. It is natural to believe that the present state of the process is a consequence of its past. The effects of past on present can be linear/non-linear/or time-varying/ time-invariant. AR models are suited to processes with exponentially decaying ACF. An autoregressive process of order p, denoted by AR(p).
 
+<br></br><br></br>Yt = ϕ1Yt−1 + ϕ2Yt−2 + · · · + ϕpYt−p + et  <br></br><br></br>
+Where <br></br><br></br>"et" is a zero mean white noise process with var(et) = σe2<br></br><br></br>
+AR(1) process: Yt = ϕYt−1 + et;    
+
+      <div style={{ display: 'flex' }}>
+        <img src={proj13_21} alt="Image 4" style={{ width: '33%', height: 'auto' }} />
+        <img src={proj13_22} alt="Image 5" style={{ width: '33%', height: 'auto' }} />
+        <img src={proj13_23} alt="Image 6" style={{ width: '33%', height: 'auto' }} />
+      </div>
+      <br></br>	 <br></br>	
+      <div className="tab1111">
+
+      <table>
+        <tr>
+            <th>Pressure_Range</th>
+            <th>Operating_Pressure </th>
+            <th>Model </th>
+            <th>RMSE </th>
+        </tr>
+        <tr>
+            <td>1 to 9 kg/cm^2</td>
+            <td>5 kg/cm^2</td>
+            <td>AR </td>
+            <td>0.002  </td>
+        </tr>
+        <tr>
+            <td>1 to 4 kg/cm^2</td>
+            <td>2 kg/cm^2</td>
+            <td>AR </td>
+            <td>0.002  </td>
+        </tr>
+       
+    </table>
+    </div>
+    <h4>
+        Conclusion
+    </h4>
+    Probability density function shows all readings are under  +/- Standard Deviation of the pressure sensor signal. Auto correlation function shows all samples of the signals are closely related. Exponentially decaying autocorrelation function shows we can model the sensor using Autoregressive model.  RMSE value for AR model is 0.002.
+<br></br><br></br>
+For preventive maintenance operator remove the transmitter and do calibration of the transmitter. For preventive maintenance, plant is shutdown. Most of times instruments performance is as per the expectations and calibration is not required.  We can avoid preventive scheduled maintenance for the pressure transmitter. With available data and model, it is possible to do predictive maintenance of pressure sensor. We can compare pressure sensor observation with AR model prediction, Which will helps operator to decide when to schedule the pressure sensor calibration.
+
+    </div>
 </div>
 
                 </div>
