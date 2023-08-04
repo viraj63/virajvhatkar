@@ -129,8 +129,7 @@ function Project_10() {
                          To build the Tableau dashboard, I carefully selected the appropriate visualization types for each insight. I arranged the visualizations on the dashboard canvas to create a cohesive and informative layout. 
                          Tableau's interactive features, like filters and drill-down options, added a dynamic element to the dashboard, enabling users to explore the data interactively.
                          <br></br>
-                         Finally after the completion, to share the dashboard to my audence , I have embedded it to my website using the Tableau JavaScript API and sharing a copy of it on linkedIn on 8/3/2022.
-                        
+                         Finally, after the completion, to share the dashboard with my audience, I embedded it to my website using the Tableau JavaScript API and shared a copy of it on LinkedIn on 8/3/2022.                        
                     </div>
                     <br>
                 </br>
