@@ -107,7 +107,7 @@ system<br>
     
         <VerticalTimelineElement 
         className='vertical-timeline-element--education' 
-        date= 'Februvary_2022-August 2022'
+        date= 'February_2022-August 2022'
         iconStyle = {{background: '#557F7F', color:'#fff'}}
         icon={<WorkIcon />}
         >
