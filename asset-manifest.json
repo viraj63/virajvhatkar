@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/virajvhatkar/static/css/main.375c5d87.css",
-    "main.js": "/virajvhatkar/static/js/main.fe9422f0.js",
+    "main.css": "/virajvhatkar/static/css/main.ce7115fe.css",
+    "main.js": "/virajvhatkar/static/js/main.a86d49d5.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
@@ -34,19 +34,25 @@
     "static/media/net_log.png": "/virajvhatkar/static/media/net_log.6884c07aa3bf89eae3c3.png",
     "static/media/proj13_icon.png": "/virajvhatkar/static/media/proj13_icon.6aaed5c24bd3c5f02381.png",
     "static/media/pic_1.png": "/virajvhatkar/static/media/pic_1.e4c7b087de63faa2f845.png",
+    "static/media/proj13_21.png": "/virajvhatkar/static/media/proj13_21.51c3288731e0a286a00f.png",
     "static/media/proj13_micro820plc.png": "/virajvhatkar/static/media/proj13_micro820plc.8e01a2f976b441bcf0c1.png",
     "static/media/lifi_22.jpg": "/virajvhatkar/static/media/lifi_22.b830719d819bffb9f27f.jpg",
     "static/media/data_brea.png": "/virajvhatkar/static/media/data_brea.13acc55aa903f22fb329.png",
+    "static/media/proj13_23.png": "/virajvhatkar/static/media/proj13_23.5fbb9a647ceb70cb4f55.png",
+    "static/media/proj13_22.png": "/virajvhatkar/static/media/proj13_22.7c049ce1e6b795bcf541.png",
     "static/media/HR_ANA.jpg": "/virajvhatkar/static/media/HR_ANA.4ea0cd70bd7b182705b6.jpg",
+    "static/media/proj13_12.png": "/virajvhatkar/static/media/proj13_12.1b8051a9b3920b01255b.png",
+    "static/media/proj13_11.png": "/virajvhatkar/static/media/proj13_11.dc1ca6711478221ffb57.png",
     "static/media/output21.xlsx": "/virajvhatkar/static/media/output21.36a5097a12b4011a5c1a.xlsx",
+    "static/media/proj13_13.png": "/virajvhatkar/static/media/proj13_13.1e3c358eb9cee8c5199b.png",
     "static/media/output.xlsx": "/virajvhatkar/static/media/output.3e52abd21ea9dbc1ad57.xlsx",
     "index.html": "/virajvhatkar/index.html",
-    "main.375c5d87.css.map": "/virajvhatkar/static/css/main.375c5d87.css.map",
-    "main.fe9422f0.js.map": "/virajvhatkar/static/js/main.fe9422f0.js.map",
+    "main.ce7115fe.css.map": "/virajvhatkar/static/css/main.ce7115fe.css.map",
+    "main.a86d49d5.js.map": "/virajvhatkar/static/js/main.a86d49d5.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.375c5d87.css",
-    "static/js/main.fe9422f0.js"
+    "static/css/main.ce7115fe.css",
+    "static/js/main.a86d49d5.js"
   ]
 }
