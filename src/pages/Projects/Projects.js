@@ -15,7 +15,7 @@ import proj10 from "../../Images/data_brea.png";
 import proj12 from "../../Images/proj12_3.png";
 import proj13 from "../../Images/proj13_icon.png";
 
-
+//"<ProjectItem name="expi" image={proj12} />"
 function Projects() {
     return (  <div className="projects">
     <h1> My Personal Projects</h1>
@@ -23,7 +23,7 @@ function Projects() {
 
 
 
-    <ProjectItem name="expi" image={proj12} />
+    
 
 
     <ProjectItem name="APPLE_INC" image={proj12} />
