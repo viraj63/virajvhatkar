@@ -26,7 +26,7 @@ import Project_10 from './pages/Projects/Project_10';
 import Project_11 from './pages/Projects/Project_11';
 import Project_12 from './pages/Projects/Project_12';
 import Project_13 from './pages/Projects/Project_13';
-
+import Project_14 from './pages/Projects/Project_14';
 
 import Tab_em_1 from './pages/Projects/Tab_em_1';
 import Group_chart from './pages/Graphs/Group_chart';
@@ -59,6 +59,7 @@ function App() {
           <Route path="/project_11" element={<Project_11 />} />
           <Route path="/project_12" element={<Project_12 />} />
           <Route path="/project_13" element={<Project_13 />} />
+          <Route path="/project_14" element={<Project_14 />} />
 
           <Route path="/group_chart" element={<Group_chart />} />
           <Route path="/plot_2" element={<Plot_2 />} />

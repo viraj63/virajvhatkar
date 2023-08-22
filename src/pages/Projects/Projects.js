@@ -23,7 +23,7 @@ function Projects() {
 
 
 
-
+    <ProjectItem name="expi" image={proj12} />
 
 
     <ProjectItem name="APPLE_INC" image={proj12} />
