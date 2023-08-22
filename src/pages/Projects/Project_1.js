@@ -132,8 +132,8 @@ function Project_1() {
          
             <a className='box_1'> Next Project  </a>
           
+            {/* #<Link to="/project_2" className='box_2'>Light Fidelity</Link>  */}
             
-            <Link to="/project_2" className='box_2'>Light Fidelity</Link> 
             <a href="https://viraj63.github.io/vt.github.io/" className='box_2'>Testing_project_work_under_progress</a>
 
             
