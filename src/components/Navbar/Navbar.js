@@ -37,7 +37,7 @@ function Navbar() {
                 <Link to="/experience" className="highlight">EXPERIENCE</Link>
                 <div className='resume'>
 
-                    <a href={require("../Navbar/Viraj_Vhatkar_Resume.pdf")} download="Resume_Viraj_Vhatkar"><Button>    Download_Resume  </Button></a>
+                    <a href={require("../Navbar/Viraj_Vhatkar_resume.pdf")} download="Resume_Viraj_Vhatkar"><Button>    Download_Resume  </Button></a>
 
 
 

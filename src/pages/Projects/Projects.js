@@ -24,7 +24,7 @@ function Projects() {
 
 
     
-
+    <ProjectItem name="Graph_Networks" image={proj12} />
 
     <ProjectItem name="APPLE_INC" image={proj12} />
     <ProjectItem name="Videogames_Release_2022_Analysis" image={imaje1} />
