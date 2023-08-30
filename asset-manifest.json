@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virajvhatkar/static/css/main.ce7115fe.css",
-    "main.js": "/virajvhatkar/static/js/main.be9debd6.js",
+    "main.js": "/virajvhatkar/static/js/main.9b664939.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
@@ -36,7 +36,7 @@
     "static/media/proj13_21.png": "/virajvhatkar/static/media/proj13_21.51c3288731e0a286a00f.png",
     "static/media/proj13_micro820plc.png": "/virajvhatkar/static/media/proj13_micro820plc.8e01a2f976b441bcf0c1.png",
     "static/media/lifi_22.jpg": "/virajvhatkar/static/media/lifi_22.b830719d819bffb9f27f.jpg",
-    "static/media/Viraj_Vhatkar_Resume.pdf": "/virajvhatkar/static/media/Viraj_Vhatkar_Resume.52accc071d6660be44a8.pdf",
+    "static/media/Viraj_Vhatkar_resume.pdf": "/virajvhatkar/static/media/Viraj_Vhatkar_resume.52accc071d6660be44a8.pdf",
     "static/media/data_brea.png": "/virajvhatkar/static/media/data_brea.13acc55aa903f22fb329.png",
     "static/media/proj13_23.png": "/virajvhatkar/static/media/proj13_23.5fbb9a647ceb70cb4f55.png",
     "static/media/proj13_22.png": "/virajvhatkar/static/media/proj13_22.7c049ce1e6b795bcf541.png",
@@ -48,11 +48,11 @@
     "static/media/output.xlsx": "/virajvhatkar/static/media/output.3e52abd21ea9dbc1ad57.xlsx",
     "index.html": "/virajvhatkar/index.html",
     "main.ce7115fe.css.map": "/virajvhatkar/static/css/main.ce7115fe.css.map",
-    "main.be9debd6.js.map": "/virajvhatkar/static/js/main.be9debd6.js.map",
+    "main.9b664939.js.map": "/virajvhatkar/static/js/main.9b664939.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7115fe.css",
-    "static/js/main.be9debd6.js"
+    "static/js/main.9b664939.js"
   ]
 }
