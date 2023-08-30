@@ -7,7 +7,7 @@ function ProjectItem({ image, name }) {
   const handleClick = () => {
     switch (name) {
       case "Graph_Networks":
-        navigate("https://viraj63.github.io/vt.github.io/");
+        window.location.href = "https://viraj63.github.io/vt.github.io/";
         break;
       case "APPLE_INC":
         navigate("/project_12");
