@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/virajvhatkar/static/css/main.ce7115fe.css",
-    "main.js": "/virajvhatkar/static/js/main.1fe21da5.js",
+    "main.js": "/virajvhatkar/static/js/main.21b613bf.js",
     "static/js/787.166cecad.chunk.js": "/virajvhatkar/static/js/787.166cecad.chunk.js",
     "static/media/LDR_12.mp4": "/virajvhatkar/static/media/LDR_12.9d3fbee4dce043befd00.mp4",
     "static/media/LDR_1.mp4": "/virajvhatkar/static/media/LDR_1.113e960b47c6a8dbdaa8.mp4",
     "static/media/IR_1.mp4": "/virajvhatkar/static/media/IR_1.637d5b39b1200f591dfe.mp4",
     "static/media/proj_4.mp4": "/virajvhatkar/static/media/proj_4.02991c99d1caeb2ad27b.mp4",
+    "static/media/graph_gif2.gif": "/virajvhatkar/static/media/graph_gif2.248c142f6904a80266d2.gif",
     "static/media/proj12_video12.mp4": "/virajvhatkar/static/media/proj12_video12.d397c546066e43298718.mp4",
     "static/media/proj_51.png": "/virajvhatkar/static/media/proj_51.cc4d9281b9bc56edc652.png",
     "static/media/lifi_2.jpg": "/virajvhatkar/static/media/lifi_2.dc75245bfbd0dbd9c00a.jpg",
@@ -48,11 +49,11 @@
     "static/media/output.xlsx": "/virajvhatkar/static/media/output.3e52abd21ea9dbc1ad57.xlsx",
     "index.html": "/virajvhatkar/index.html",
     "main.ce7115fe.css.map": "/virajvhatkar/static/css/main.ce7115fe.css.map",
-    "main.1fe21da5.js.map": "/virajvhatkar/static/js/main.1fe21da5.js.map",
+    "main.21b613bf.js.map": "/virajvhatkar/static/js/main.21b613bf.js.map",
     "787.166cecad.chunk.js.map": "/virajvhatkar/static/js/787.166cecad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7115fe.css",
-    "static/js/main.1fe21da5.js"
+    "static/js/main.21b613bf.js"
   ]
 }
