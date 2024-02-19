@@ -1,0 +1,222 @@
+
+.common {
+    /*flex-direction: column;
+    justify-content: center; /*
+    align-items: center;
+    /*text-align: center; */
+    width: 100%;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+    color: #1f3bb9;
+    display: grid;
+    color: #f0f0f0;
+    background-image: url('../../Images/v2.gif') ;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 2 ;
+    
+}
+
+.prompt{     /*    initial: .common .prompt {  */
+    top: 0;
+    padding-left: 0px;
+    font-size: 2.7rem;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 200;
+    width: 100%;
+    transition-property: all;
+    transition-duration: 2000ms;
+    opacity: 2;
+    transform: translateY(0);
+   
+}
+.prompt.active {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+.prompt h2{     /*    initial: .common .prompt h2{  */
+    top: 0;
+    position: relative;
+    padding-top: 90px;
+    padding-left: 110px;
+    font-size: 5.1rem;
+    font-family: cursive;
+    font-weight: 200;
+    color: #227b9b;
+    height: 50px;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.prompt p:first-of-type{   /*    initial: .common .prompt p:first-of-type{  */
+    top: 0;
+    padding-left: 110px;
+    position: relative;
+}
+
+.sec_para{   /*    initial: .common .prompt .sec_para{  */
+    top: 0;
+    padding-left: 110px;
+    position: relative;
+}
+.prompt a:first-of-type{    /*    .common .prompt  a:first-of-type{  */
+   
+    color: rgb(54, 128, 212);
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.prompt a:first-of-type:hover {
+    color: rgb(172, 0, 37); /* Change the color to your desired value */
+    /* Add any other hover styles you want */
+    transition: all 0.8s ease;
+    font-size: 3rem; 
+  }
+  
+  
+.logos_home{    /*     .common .logos_home{  */
+    position: relative;
+   text-align: bottom;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ 
+ }
+
+ .logos_home a{     /*     .common .logos_home  a{  */
+    
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 200;
+    padding-right: 40px;
+    color: #f0f0f0;
+    /*color: rgb(54, 128, 212);*/
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+
+}
+.link_name:hover {
+    color: #24AC61; /* Change the color to your desired value */
+    font-size: 2.1rem; 
+    transition: all 0.8s ease;
+  }
+
+
+
+/*
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f0f0f0;
+    background-image: url('../../Images/vv.gif') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+/*
+    animation: changeColor 10s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: hsl(240, 41%, 42%);
+    }
+    25% {
+        background-color: rgb(19, 19, 72);
+    }
+    50% {
+        background-color: hsl(120, 10%, 41%);
+    }
+    75% {
+        background-color: rgb(19, 19, 72);
+    }
+    100% {
+        background-color: hsl(276, 95%, 54%);
+    }
+}*/
+
+
+/*
+.common h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    
+    height: 50px;
+}  
+*/
+
+/*
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+}
+
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    color: #b98f1b;
+}
+
+.skills .list {
+    list-style: none;
+    width: 60%;
+}*/
+
+
+
+@media only screen and (max-width:940px) 
+
+{
+       .common  {
+        width: 100%;
+        height: 100%;
+        }
+        .prompt p:first-of-type{
+            padding-left: 15px;
+        }
+
+        .sec_para{
+            padding-top: 20%;
+            padding-left:15px;
+            font-size: 33px;
+        }
+        .prompt h2{
+            padding-bottom: 10%;
+            padding-left: 15px;
+            font-size: 33px;
+        }
+
+       .prompt p:first-of-type{
+            font-size: 20px;
+        }
+        .logos_home{
+            padding: 15px;
+        }
+        .logos_home a{
+            padding-right: 1px;
+            font-size: 12px;
+        }
+        .navbar a {
+            width: 70px;
+        }
+
+}
