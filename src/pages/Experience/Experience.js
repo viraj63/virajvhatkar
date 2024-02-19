@@ -72,7 +72,7 @@ in material transportation using 5S and VSM
 
         <VerticalTimelineElement 
         className='vertical-timeline-element--education' 
-        date= 'June_2021 - January_2022'
+        date= 'April_2021 - February_2022'
         iconStyle = {{background: '#557F7F', color:'#fff'}}
         icon={<WorkIcon />}
         >
@@ -107,7 +107,7 @@ system<br>
     
         <VerticalTimelineElement 
         className='vertical-timeline-element--education' 
-        date= 'February_2022-August 2022'
+        date= 'February_2022-February_2023'
         iconStyle = {{background: '#557F7F', color:'#fff'}}
         icon={<WorkIcon />}
         >
@@ -122,7 +122,7 @@ system<br>
             
           </p>
           <p>
-          ● As a research intern, I worked with the IP Group attorneys on tasks related to the patent and trademark filing
+          ● As a research analyst, I worked with the IP Group attorneys on tasks related to the patent and trademark filing
 process, including analysing patent filings and applications, developing patent strategies, obtaining trademark
 protection, and providing counselling on patent issues. <br>
 </br>
@@ -134,7 +134,7 @@ litigations
 
         <VerticalTimelineElement 
         className='vertical-timeline-element--education' 
-        date= 'August_2022 - '
+        date= 'August_2022 - December_2023'
         iconStyle = {{background: 'paleturquoise', color:'#fff'}}
         icon={<SchoolIcon/>}
         >
