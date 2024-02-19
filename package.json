@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
-    "react-lottie": "^1.2.3"
+    "nivo": "^0.31.0",
+    "plotly.js": "^2.24.3",
+    "plotly.js-dist": "^2.24.3",
+    "react-iframe": "^1.8.5",
+    "react-lottie": "^1.2.3",
+    "react-plotly.js": "^2.6.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
