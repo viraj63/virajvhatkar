@@ -147,7 +147,7 @@ litigations
       
           </p>
           <p>
-          August 2022 - 
+          August 2022 - December 2023
           </p>
         
         </VerticalTimelineElement>
