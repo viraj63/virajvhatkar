@@ -81,7 +81,7 @@ in material transportation using 5S and VSM
             
           </h3>
           <p>
-            <strong> Instrumentation & Control Engineer
+            <strong> Predictive Analytical Engineer
               </strong>
           </p>
           <p>
@@ -117,7 +117,7 @@ system<br>
           </h3>
           <p>
             <strong>
-            Research Engineer
+            Data Research Analyst
             </strong>
             
           </p>
